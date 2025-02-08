@@ -7,3 +7,14 @@
 
 После выхода из редактора была введена команда "sudo yum install wget" и введен пароль администратора. После этого у нас происходит установка утилиты wget, которая позволяет загружать файлы из сети.
 ![image](https://github.com/user-attachments/assets/21d51efb-75d4-44d3-9622-c30471e725ed)
+
+
+Команда «sudo wget -P /etc/yum.repos.d/» используется для автоматического скачивания конфигурационного файла репозитория в директорию /etc/yum.repos.d/. С помощью этой команды мы скачиваем Docker.
+![image](https://github.com/user-attachments/assets/00127a8e-4e93-42d6-a5d6-98c5a3584c06)
+
+С помощью команды sudo yum install docker-ce docker-ce-cli containerd.io устанавливает пакет в систему с помощью пакетного менеджера yum.
+![image](https://github.com/user-attachments/assets/64c82193-76bc-4b9a-a038-aeb200128d49)
+![image](https://github.com/user-attachments/assets/844d4c1b-b4e7-4789-8758-f261d850cfe6)
+
+С помощью команды sudo systemctl enable docker --now настроится автоматический запуск Docker при старте системы.
+![image](https://github.com/user-attachments/assets/68e77201-745c-4c3f-b405-7bccfb4f3bd4)
