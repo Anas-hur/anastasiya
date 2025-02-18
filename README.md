@@ -1,4 +1,4 @@
-# anastasiya
+# myasoedova
 Для установки утилиты wget вводим команду `sudo yum istall wget` мы получаем ошибку is not a sudoers file. Для исправления данной ошибки была введена команда `su root` для входа с правами администратора, после этого был введен пароль администратора.
 
 ![image](https://github.com/user-attachments/assets/ae86b4d9-31da-421b-b5d0-8381be150399)
