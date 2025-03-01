@@ -21,3 +21,28 @@
 
 С помощью команды `sudo systemctl enable docker --now` настроится автоматический запуск Docker при старте системы.
 ![image](https://github.com/user-attachments/assets/68e77201-745c-4c3f-b405-7bccfb4f3bd4)
+
+
+
+![image](https://github.com/user-attachments/assets/bce728d6-8fa7-45a8-9399-f51d9aa22575)
+
+
+![image](https://github.com/user-attachments/assets/3b2a991b-974b-4e7e-99d4-7618c4bbf930)
+
+
+![image](https://github.com/user-attachments/assets/c805d966-c505-4261-9143-113126fea09a)
+
+
+![image](https://github.com/user-attachments/assets/ed5e06a3-5aee-4286-96f3-e28d93d2ef08)
+
+
+![image](https://github.com/user-attachments/assets/42141dc6-cd2a-45a1-859c-2afb8df1cac8)
+
+
+![image](https://github.com/user-attachments/assets/5759217a-800b-4b6e-b9c2-505f5c458bc6)
+
+
+![image](https://github.com/user-attachments/assets/ac659341-9181-41f7-a788-96e62185b128)
+
+
+![image](https://github.com/user-attachments/assets/87a00f0d-f9bf-42d4-8bff-640dd841003f)
