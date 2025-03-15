@@ -62,8 +62,17 @@
 ![image](https://github.com/user-attachments/assets/829e51f6-d39b-48a4-b22c-08aeab252aec)
 
 18. Команда `sudo vi docker-compose.yaml` открыла файл docker-compose.yaml в текстовом редакторе vi с правами суперпользователя. Что бы изменить что то в текстовом редакторе нужно нажать кнопку insert. В текстовом редакторе после services нужно написать node-exporter. Для того что бы сохранить изменения нужно нажать Esc и написать :wq!
+![image](https://github.com/user-attachments/assets/219d8f00-7654-4459-b281-3dc5d9c678b2)
+
 ![VirtualBox_Myasoedova_01](https://github.com/user-attachments/assets/f3f78d47-af41-4ff1-9659-1bbb42644886)
 
 19. С помощью команда `sudo vi prometheus.yaml ` откроем файл prometheus.yaml в текстовом редакторе vi. В файле нужно исправить targets: на exporter:9100.
     
 ![VirtualBox_Myasoedova_01_png](https://github.com/user-attachments/assets/b277966c-c615-45f5-9c50-952f584b020e)
+![image](https://github.com/user-attachments/assets/dd5dc74f-0504-4c01-87bc-8ddf65e04085)
+
+20. Нужно перейти на сайт `localhost:3000`. Логин и пароль: `admin`. После того как зашли, нужно создать После того как зашли нужно создать `Dashboards`. Для этого нужно `Home > Connections > Data sources > Add data source`. После этого нужно `+Add visualization > Configure a new data source > Prometheus`. Настройки при создании: Connection: http://prometheus:9090; Authentication: Basic authentication. После этого нужно нажать `Save & test`. После создания нужно испортировать `Dashboards`: `Home > Dashboards > Import dashboard`. После этого нужно ввести `1860` и затем нажать Load. Затем нужно нажать `Select Prometheus > Import > Prometheus`.
+    
+![image](https://github.com/user-attachments/assets/860ad8f4-d7d7-4602-9766-5786bf80dfcc)
+
+![image](https://github.com/user-attachments/assets/55b8fbf7-69bb-4d64-8865-20b70496e5ed)
