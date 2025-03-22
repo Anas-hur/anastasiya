@@ -76,3 +76,18 @@
 ![image](https://github.com/user-attachments/assets/860ad8f4-d7d7-4602-9766-5786bf80dfcc)
 
 ![image](https://github.com/user-attachments/assets/55b8fbf7-69bb-4d64-8865-20b70496e5ed)
+
+21. Выполняем команду `echo -e "# TYPE light_metric1 gauge\nlight_metric1 0" | curl --data-binary @- http://localhost:8428/api/v1/import/prometheus` 
+![image](https://github.com/user-attachments/assets/30e6e441-a755-4be9-a264-4789530eb35d)
+
+22. После этого в браузере в поисковую строку вводим `http://localhost:8428`. В открывшемся окне нажимаем `vmui`. После этого в строке вводим переменную `light_metric1` и нажимаем кнопку Execute query.
+![image](https://github.com/user-attachments/assets/9df473fe-1b4a-48cb-a331-dbf2c39e5063)
+
+23. Создаём новый dashboard с по принцыпу как создавала prometheus. В командную строку была введена команда `echo -e "# TYPE light_metric1 gauge\nlight_metric1 500" | curl --data-binary @- http://localhost:8428/api/v1/import/prometheus` в которой изменили значение переменной light_metric1 с 0 на 500.
+![image](https://github.com/user-attachments/assets/3fb9f7b2-d1f1-4ef7-a1e1-127c6e37238c)
+
+24. После этого было изменено значение переменной `light_metric1` на 250.
+![image](https://github.com/user-attachments/assets/93d4553e-9a94-463f-8abd-3c4ca838be39)
+
+25. Значение переменной `light_metric1` изменено на 750.
+![image](https://github.com/user-attachments/assets/9a4b8c2a-c4b3-41e4-93d9-60b15550f534)
